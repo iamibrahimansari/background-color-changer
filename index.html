@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Background Color Changer</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="main-conteiner" class="main-conteiner">
+            <header class="header" id="header">
+                <menu class="header__menu">
+                    <p class="header__site-name" id="site-name">Background Color Changer</p>
+                    <nav>
+                        <ul class="header__ul">
+                            <li class="header__li">Hex</li>
+                            <li class="header__li">RGB</li>
+                            <li class="header__li">RGBa</li>
+                            <li class="header__li">HSL</li>
+                            <li class="header__li">HSLa</li>
+                        </ul>
+                    </nav>
+                    <div class="header__menu__dot">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </menu>
+            </header>
+            <main class="main-content" id="main-content">
+                <section class="main-content__color-code" id="main-content__color-code">
+                    <p class="main-content__p" id="main-content__p">
+                        <span id="span1">Background Color</span> 
+                        <span id="span2"></span>
+                    </p>
+                    <button type="button" class="main-content__btn" id="main-content__btn">
+                        CLICK ME
+                    </button>
+                    <p id="error"></p>
+                </section>
+            </main>
+        </div>
+        <script src="./js/script.js"></script>        
+    </body>
+</html>

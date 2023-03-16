@@ -1,0 +1,14 @@
+{
+  "name": "background_color_changer",
+  "version": "1.0.0",
+  "description": "This is mini project in which I used HTML, CSS and JS.",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "author": "Ibrahim Ansari",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

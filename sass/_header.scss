@@ -1,0 +1,50 @@
+.header{
+    background-color: white;
+    letter-spacing: 2px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    &__menu, &__ul{
+        display: flex;
+    }
+
+    &__site-name{
+        font-size: 2.5rem;
+    }
+
+    &__menu{
+        padding: 1.5rem 10rem;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &__dot{
+            position: absolute;
+            right: 1rem;
+            display: none;
+            span{
+                display: block;
+                width: 20px;
+                height: 2px;
+                background-color: red;
+                &:not(:last-child){
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+    &__ul{
+        gap: 2rem;
+        list-style-type: none;
+    }
+    
+    &__li{
+        padding: 1rem 2rem;
+        &:hover{
+            color: #237bba;
+            cursor: pointer;
+        }
+        &__active{
+            background-color: #444;
+            color: #fff;
+        }
+    }
+
+}
